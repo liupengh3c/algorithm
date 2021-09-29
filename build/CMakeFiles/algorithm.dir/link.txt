@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -O3  -rdynamic CMakeFiles/algorithm.dir/main.cpp.o  -o algorithm  -Wl,-rpath,/home/liupeng/study/algorithm/build/src src/libsrc.so 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/array/lp_array.h
+vector
+-
+
+/home/liupeng/study/algorithm/src/array/lp_array.cpp
+array/lp_array.h
+/home/liupeng/study/algorithm/src/array/array/lp_array.h
+iostream
+-
+vector
+-
+

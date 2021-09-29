@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/array/lp_array.h
+vector
+-
+
+/home/liupeng/study/algorithm/main.cpp
+array/lp_array.h
+/home/liupeng/study/algorithm/array/lp_array.h
+iostream
+-
+fstream
+-
+cstring
+-
+ctime
+-
+
