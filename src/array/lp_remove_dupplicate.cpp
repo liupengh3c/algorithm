@@ -1,4 +1,4 @@
-#include "array/lp_array.h"
+#include "lp_array.h"
 #include <iostream>
 #include <vector>
 
