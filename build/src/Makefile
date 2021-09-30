@@ -142,32 +142,59 @@ src/fast:
 	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-array/lp_array.o: array/lp_array.cpp.o
+array/lp_remove_dupplicate.o: array/lp_remove_dupplicate.cpp.o
 
-.PHONY : array/lp_array.o
+.PHONY : array/lp_remove_dupplicate.o
 
 # target to build an object file
-array/lp_array.cpp.o:
-	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/array/lp_array.cpp.o
-.PHONY : array/lp_array.cpp.o
+array/lp_remove_dupplicate.cpp.o:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o
+.PHONY : array/lp_remove_dupplicate.cpp.o
 
-array/lp_array.i: array/lp_array.cpp.i
+array/lp_remove_dupplicate.i: array/lp_remove_dupplicate.cpp.i
 
-.PHONY : array/lp_array.i
+.PHONY : array/lp_remove_dupplicate.i
 
 # target to preprocess a source file
-array/lp_array.cpp.i:
-	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/array/lp_array.cpp.i
-.PHONY : array/lp_array.cpp.i
+array/lp_remove_dupplicate.cpp.i:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.i
+.PHONY : array/lp_remove_dupplicate.cpp.i
 
-array/lp_array.s: array/lp_array.cpp.s
+array/lp_remove_dupplicate.s: array/lp_remove_dupplicate.cpp.s
 
-.PHONY : array/lp_array.s
+.PHONY : array/lp_remove_dupplicate.s
 
 # target to generate assembly for a file
-array/lp_array.cpp.s:
-	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/array/lp_array.cpp.s
-.PHONY : array/lp_array.cpp.s
+array/lp_remove_dupplicate.cpp.s:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.s
+.PHONY : array/lp_remove_dupplicate.cpp.s
+
+dynamic/lp_trap.o: dynamic/lp_trap.cpp.o
+
+.PHONY : dynamic/lp_trap.o
+
+# target to build an object file
+dynamic/lp_trap.cpp.o:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o
+.PHONY : dynamic/lp_trap.cpp.o
+
+dynamic/lp_trap.i: dynamic/lp_trap.cpp.i
+
+.PHONY : dynamic/lp_trap.i
+
+# target to preprocess a source file
+dynamic/lp_trap.cpp.i:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.i
+.PHONY : dynamic/lp_trap.cpp.i
+
+dynamic/lp_trap.s: dynamic/lp_trap.cpp.s
+
+.PHONY : dynamic/lp_trap.s
+
+# target to generate assembly for a file
+dynamic/lp_trap.cpp.s:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.s
+.PHONY : dynamic/lp_trap.cpp.s
 
 # Help Target
 help:
@@ -178,9 +205,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... array/lp_array.o"
-	@echo "... array/lp_array.i"
-	@echo "... array/lp_array.s"
+	@echo "... array/lp_remove_dupplicate.o"
+	@echo "... array/lp_remove_dupplicate.i"
+	@echo "... array/lp_remove_dupplicate.s"
+	@echo "... dynamic/lp_trap.o"
+	@echo "... dynamic/lp_trap.i"
+	@echo "... dynamic/lp_trap.s"
 .PHONY : help
 
 

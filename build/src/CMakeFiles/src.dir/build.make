@@ -74,30 +74,45 @@ include src/CMakeFiles/src.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/src.dir/flags.make
 
-src/CMakeFiles/src.dir/array/lp_array.cpp.o: src/CMakeFiles/src.dir/flags.make
-src/CMakeFiles/src.dir/array/lp_array.cpp.o: ../src/array/lp_array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liupeng/study/algorithm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/src.dir/array/lp_array.cpp.o"
-	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/array/lp_array.cpp.o -c /home/liupeng/study/algorithm/src/array/lp_array.cpp
+src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o: src/CMakeFiles/src.dir/flags.make
+src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o: ../src/array/lp_remove_dupplicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liupeng/study/algorithm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o"
+	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o -c /home/liupeng/study/algorithm/src/array/lp_remove_dupplicate.cpp
 
-src/CMakeFiles/src.dir/array/lp_array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/array/lp_array.cpp.i"
-	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liupeng/study/algorithm/src/array/lp_array.cpp > CMakeFiles/src.dir/array/lp_array.cpp.i
+src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.i"
+	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liupeng/study/algorithm/src/array/lp_remove_dupplicate.cpp > CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.i
 
-src/CMakeFiles/src.dir/array/lp_array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/array/lp_array.cpp.s"
-	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liupeng/study/algorithm/src/array/lp_array.cpp -o CMakeFiles/src.dir/array/lp_array.cpp.s
+src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.s"
+	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liupeng/study/algorithm/src/array/lp_remove_dupplicate.cpp -o CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.s
+
+src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o: src/CMakeFiles/src.dir/flags.make
+src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o: ../src/dynamic/lp_trap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liupeng/study/algorithm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o"
+	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/dynamic/lp_trap.cpp.o -c /home/liupeng/study/algorithm/src/dynamic/lp_trap.cpp
+
+src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/dynamic/lp_trap.cpp.i"
+	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liupeng/study/algorithm/src/dynamic/lp_trap.cpp > CMakeFiles/src.dir/dynamic/lp_trap.cpp.i
+
+src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/dynamic/lp_trap.cpp.s"
+	cd /home/liupeng/study/algorithm/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liupeng/study/algorithm/src/dynamic/lp_trap.cpp -o CMakeFiles/src.dir/dynamic/lp_trap.cpp.s
 
 # Object files for target src
 src_OBJECTS = \
-"CMakeFiles/src.dir/array/lp_array.cpp.o"
+"CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o" \
+"CMakeFiles/src.dir/dynamic/lp_trap.cpp.o"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
-src/libsrc.so: src/CMakeFiles/src.dir/array/lp_array.cpp.o
+src/libsrc.so: src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o
+src/libsrc.so: src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o
 src/libsrc.so: src/CMakeFiles/src.dir/build.make
 src/libsrc.so: src/CMakeFiles/src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liupeng/study/algorithm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libsrc.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liupeng/study/algorithm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libsrc.so"
 	cd /home/liupeng/study/algorithm/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liupeng/study/algorithm/src/array/lp_array.cpp" "/home/liupeng/study/algorithm/build/src/CMakeFiles/src.dir/array/lp_array.cpp.o"
+  "/home/liupeng/study/algorithm/src/array/lp_remove_dupplicate.cpp" "/home/liupeng/study/algorithm/build/src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o"
+  "/home/liupeng/study/algorithm/src/dynamic/lp_trap.cpp" "/home/liupeng/study/algorithm/build/src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

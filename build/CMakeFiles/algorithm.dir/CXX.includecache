@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../include/array/lp_array.h
+../include/lp_array.h
+vector
+-
+
+../include/lp_dynamic.h
 vector
 -
 
 /home/liupeng/study/algorithm/main.cpp
-array/lp_array.h
-/home/liupeng/study/algorithm/array/lp_array.h
+lp_array.h
+/home/liupeng/study/algorithm/lp_array.h
+lp_dynamic.h
+/home/liupeng/study/algorithm/lp_dynamic.h
 iostream
 -
 fstream

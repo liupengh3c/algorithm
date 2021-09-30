@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src.dir/array/lp_array.cpp.o"
+  "CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o"
+  "CMakeFiles/src.dir/dynamic/lp_trap.cpp.o"
   "libsrc.pdb"
   "libsrc.so"
 )
