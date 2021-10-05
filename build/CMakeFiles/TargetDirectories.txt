@@ -1,6 +1,0 @@
-/home/liupeng/study/algorithm/build/CMakeFiles/rebuild_cache.dir
-/home/liupeng/study/algorithm/build/CMakeFiles/algorithm.dir
-/home/liupeng/study/algorithm/build/CMakeFiles/edit_cache.dir
-/home/liupeng/study/algorithm/build/src/CMakeFiles/rebuild_cache.dir
-/home/liupeng/study/algorithm/build/src/CMakeFiles/src.dir
-/home/liupeng/study/algorithm/build/src/CMakeFiles/edit_cache.dir
