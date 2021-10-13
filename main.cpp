@@ -1,10 +1,11 @@
-#include "lp_array.h"
-#include "lp_dynamic.h"
 #include <iostream>
 #include <fstream>
 #include <cstring>
 #include <ctime>
 
+#include "lp_array.h"
+#include "lp_dynamic.h"
+#include "lp_stack.h"
 using namespace std;
 
 const int MENU_QUIT = 0;
@@ -19,6 +20,7 @@ int main(void)
     string file_name;
     lp_array algo_arr;
     lp_dynamic dynamic;
+    lp_stack dy_stack;
 
     vector<int> nums;
     time_t start;
@@ -52,9 +54,15 @@ int main(void)
             break;
         case 2:
             int sum;
-            nums = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+            // nums = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+            nums = {3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 4, 5};
             sum = dynamic.trap(nums);
-            cout << "the total is: " << sum << endl;
+            cout << "\nthe time of algo(dynamic) cost: " << 1000.0 * float(clock() - start) / CLOCKS_PER_SEC << "ms" << endl;
+            cout << "the total(dynamic) is: " << sum << endl;
+            start = clock();
+            sum = dy_stack.trap(nums);
+            cout << "\nthe time of algo(stack) cost: " << 1000.0 * float(clock() - start) / CLOCKS_PER_SEC << "ms" << endl;
+            cout << "the total(stack) is: " << sum << endl;
             break;
         default:
             cout << "user quit." << endl;

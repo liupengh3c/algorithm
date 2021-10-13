@@ -14,11 +14,11 @@ vector
 vector
 -
 
+../include/lp_stack.h
+vector
+-
+
 /home/liupeng/study/algorithm/main.cpp
-lp_array.h
-/home/liupeng/study/algorithm/lp_array.h
-lp_dynamic.h
-/home/liupeng/study/algorithm/lp_dynamic.h
 iostream
 -
 fstream
@@ -27,4 +27,10 @@ cstring
 -
 ctime
 -
+lp_array.h
+/home/liupeng/study/algorithm/lp_array.h
+lp_dynamic.h
+/home/liupeng/study/algorithm/lp_dynamic.h
+lp_stack.h
+/home/liupeng/study/algorithm/lp_stack.h
 

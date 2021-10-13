@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -std=c++11 -O3  -shared -Wl,-soname,libsrc.so -o libsrc.so CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o CMakeFiles/src.dir/dynamic/lp_trap.cpp.o 
+/usr/bin/c++ -fPIC -std=c++11 -O3  -shared -Wl,-soname,libsrc.so -o libsrc.so CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o CMakeFiles/src.dir/dynamic/lp_trap.cpp.o CMakeFiles/src.dir/stack/lp_stack.cpp.o 

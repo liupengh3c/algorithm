@@ -7,7 +7,6 @@
 // 解析：当前位置左右两边的最小值(min)大于当前值，才能接到雨水，两边不能接雨水，接到的雨水数量为：min-当前值，
 int lp_dynamic::trap(vector<int> &height)
 {
-
     int len = 0, sum = 0;
     len = height.size();
     // 判断height是否为空

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/liupeng/study/algorithm/src/array/lp_remove_dupplicate.cpp" "/home/liupeng/study/algorithm/build/src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o"
   "/home/liupeng/study/algorithm/src/dynamic/lp_trap.cpp" "/home/liupeng/study/algorithm/build/src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o"
+  "/home/liupeng/study/algorithm/src/stack/lp_stack.cpp" "/home/liupeng/study/algorithm/build/src/CMakeFiles/src.dir/stack/lp_stack.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

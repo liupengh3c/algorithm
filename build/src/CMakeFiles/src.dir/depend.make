@@ -7,3 +7,6 @@ src/CMakeFiles/src.dir/array/lp_remove_dupplicate.cpp.o: ../src/array/lp_remove_
 src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o: ../include/lp_dynamic.h
 src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.o: ../src/dynamic/lp_trap.cpp
 
+src/CMakeFiles/src.dir/stack/lp_stack.cpp.o: ../include/lp_stack.h
+src/CMakeFiles/src.dir/stack/lp_stack.cpp.o: ../src/stack/lp_stack.cpp
+

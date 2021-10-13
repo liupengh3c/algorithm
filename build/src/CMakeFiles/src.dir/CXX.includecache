@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../include/lp_dynamic.h
+../include/lp_stack.h
 vector
 -
 
-/home/liupeng/study/algorithm/src/dynamic/lp_trap.cpp
-lp_dynamic.h
-/home/liupeng/study/algorithm/src/dynamic/lp_dynamic.h
+/home/liupeng/study/algorithm/src/stack/lp_stack.cpp
 iostream
+-
+stack
 -
 cmath
 -
+ctime
+-
+lp_stack.h
+/home/liupeng/study/algorithm/src/stack/lp_stack.h
 

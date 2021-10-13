@@ -196,6 +196,33 @@ dynamic/lp_trap.cpp.s:
 	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/dynamic/lp_trap.cpp.s
 .PHONY : dynamic/lp_trap.cpp.s
 
+stack/lp_stack.o: stack/lp_stack.cpp.o
+
+.PHONY : stack/lp_stack.o
+
+# target to build an object file
+stack/lp_stack.cpp.o:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/stack/lp_stack.cpp.o
+.PHONY : stack/lp_stack.cpp.o
+
+stack/lp_stack.i: stack/lp_stack.cpp.i
+
+.PHONY : stack/lp_stack.i
+
+# target to preprocess a source file
+stack/lp_stack.cpp.i:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/stack/lp_stack.cpp.i
+.PHONY : stack/lp_stack.cpp.i
+
+stack/lp_stack.s: stack/lp_stack.cpp.s
+
+.PHONY : stack/lp_stack.s
+
+# target to generate assembly for a file
+stack/lp_stack.cpp.s:
+	cd /home/liupeng/study/algorithm/build && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/stack/lp_stack.cpp.s
+.PHONY : stack/lp_stack.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,6 +238,9 @@ help:
 	@echo "... dynamic/lp_trap.o"
 	@echo "... dynamic/lp_trap.i"
 	@echo "... dynamic/lp_trap.s"
+	@echo "... stack/lp_stack.o"
+	@echo "... stack/lp_stack.i"
+	@echo "... stack/lp_stack.s"
 .PHONY : help
 
 
